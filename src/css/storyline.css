@@ -1,0 +1,93 @@
+main {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	position: static;
+	background-color: #111;
+}
+
+.storyline__swiper-wrapper {
+	background-color: #000;
+}
+
+.storyline__swiper {
+	height: calc(100vh - 70px);
+	overflow-y: hidden;
+}
+
+.first-screen__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.storyline__swiper .swiper-slide {
+	position: relative;
+}
+
+.season__content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.season-text-wrapper {
+	max-width: 800px;
+	color: #eee;
+}
+
+.season-text-title {
+	text-align: center;
+}
+
+.season-slide-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.4;
+}
+
+.swiper-pagination-bullet-storyline {
+	width: auto;
+	height: unset;
+	opacity: unset;
+	padding-right: 16px;
+	color: #fff;
+	position: relative;
+	opacity: 0.6;
+	background: unset;
+	text-align: right;
+}
+
+.swiper-pagination-bullet-storyline:after {
+	content: '';
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	top: 5px;
+	right: 0;
+	transition: .2s;
+}
+
+.swiper-pagination-bullet-storyline.swiper-pagination-bullet-active  {
+	opacity: 1;
+}
+
+.swiper-pagination-bullet-storyline.swiper-pagination-bullet-active:after {
+	background-color: #d00;
+}
+
+.swiper-pagination-bullet-wrapper {
+	display: flex;
+}

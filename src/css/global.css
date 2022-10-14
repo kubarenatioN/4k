@@ -1,0 +1,93 @@
+@import url('./vars.css');
+@import url('./reset.css');
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+}
+
+.menu__list {
+	display: flex;
+}
+
+.menu__item {
+	margin-left: 20px;
+}
+
+.menu__link {
+	padding: 6px 1px;
+}
+
+.first-screen__wrapper {
+	position: relative;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-img {
+	height: 30px;
+	display: block;
+}
+
+.header {
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	padding: 20px 0;
+	background-color: #1d1d1dab;
+}
+
+.first-screen {
+	display: flex;
+	height: 100vh;
+}
+
+.first-screen__main {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-color: #000;
+}
+
+.first-screen__text {
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	font-family: var(--lora);
+	z-index: 1;
+}
+
+.first-screen__title {
+	font-size: 100px;
+	line-height: 120px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.first-screen__subtitle {
+	font-size: 48px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.first-screen__swiper {
+	width: 100%;
+}
+
+.first-screen__background {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.6;
+}
+
+.section-title {
+	text-align: center;
+}
