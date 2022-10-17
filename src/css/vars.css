@@ -1,4 +1,6 @@
 :root {
 	--text-color: #333;
+	--color-accent: #bb0b0b;
+	/* --color-accent: #e10707; */
 	--lora: 'Lora', serif;
 }

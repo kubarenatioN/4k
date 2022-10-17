@@ -4,10 +4,13 @@
 body {
 	font-family: 'Inter', sans-serif;
 	font-size: 14px;
+	background-color: #1f1f1f;
+	color: #eee;
 }
 
 .menu__list {
 	display: flex;
+	align-items: center;
 }
 
 .menu__item {
@@ -75,6 +78,7 @@ body {
 .first-screen__subtitle {
 	font-size: 48px;
 	text-shadow: 1px 1px 1px #000;
+	color: var(--color-accent);
 }
 
 .first-screen__swiper {
@@ -88,6 +92,27 @@ body {
 	opacity: 0.6;
 }
 
+.section {
+	padding: 40px 0;
+}
+
 .section-title {
 	text-align: center;
+	font-family: var(--lora);
+	font-size: 36px;
+	color: var(--color-accent);
+}
+
+.footer {
+	font-size: 16px;
+	background-color: #111;
+}
+.footer__inner {
+	display: flex;
+	padding: 20px 0;
+}
+
+.footer__inner .menu {
+
+	margin: 0 auto;
 }

@@ -64,7 +64,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #000;	
+	background-color: #ccc;	
 }
 
 .storyline-item:nth-child(even) {
@@ -108,7 +108,7 @@
 	position: absolute;
 	height: 3px;
 	width: 10px;
-	background-color: #f00;
+	background-color: var(--color-accent);
 	border-radius: 2px;
 	left: 100%;
 	top: 12px;
