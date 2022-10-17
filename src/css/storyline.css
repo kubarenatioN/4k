@@ -45,15 +45,25 @@ main {
 	color: #eee;
 }
 
+.season-text-wrapper p {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
 .season-text-title {
+	color: var(--color-accent);
+	font-size: 42px;
+	font-weight: 700;
+	font-family: var(--lora);
 	text-align: center;
+	text-shadow: 1px 1px 4px #000;
 }
 
 .season-slide-image {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	opacity: 0.4;
+	opacity: 0.34;
 }
 
 .swiper-pagination-bullet-storyline {
@@ -85,7 +95,7 @@ main {
 }
 
 .swiper-pagination-bullet-storyline.swiper-pagination-bullet-active:after {
-	background-color: #d00;
+	background-color: var(--color-accent);
 }
 
 .swiper-pagination-bullet-wrapper {
