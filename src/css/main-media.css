@@ -1,0 +1,121 @@
+@media (max-width: 1200px) {
+    .about-item__text {
+        max-width: calc(50% - 20px);
+    }
+
+    .heroes__item {
+        margin: 0 10px;
+    }
+
+    .storyline-item__year {
+        font-size: 36px;
+        letter-spacing: -3px;
+    }
+
+    .storyline-item__title {
+        font-size: 24px;
+    }
+
+    .viewers-line {
+        transform: scaleX(.5);
+        transform-origin: left;
+    }
+}
+
+@media (max-width: 1000px) {
+    .first-screen__title {
+        font-size: 72px;
+    }
+
+    .first-screen__subtitle {
+        font-size: 36px;
+    }
+
+    .heroes__item-image {
+        width: 200px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-item {
+        display: block;
+    }
+    
+    .about-item__text {
+        max-width: 80%;
+    }
+
+    .about-item__image {
+        display: block;
+        margin-left: auto;
+        width: 80%;
+    }
+
+    .storyline-item {
+        display: inline-flex;
+        width: auto;
+        background-color: unset;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20%;
+    }
+    .storyline-item:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .storyline-item__year {
+        position: static;
+        padding: 0;
+        text-align: left;
+        font-size: 32px;
+        padding-bottom: 10px;
+        min-width: unset;
+    }
+    .storyline-item__text {
+        position: static;
+        padding: 0;
+    }
+
+    .first-screen__title {
+        font-size: 48px;
+        line-height: 1.4;
+    }
+    .first-screen__subtitle {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 700px) {   
+    .heroes__wrapper {
+        flex-wrap: wrap;
+    }
+    .heroes__item-image {
+        width: 240px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 640px) {
+    .storyline-item {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .first-screen__title {
+        font-size: 32px;
+    }
+
+    .heroes__item {
+        width: 240px;
+    }
+    .heroes__item-image {
+        width: 100%;
+        height: 360px;
+    }
+
+    .viewers-line {
+        transform: scaleX(.4);
+    }
+}

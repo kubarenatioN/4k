@@ -1,18 +1,3 @@
-// const swiper = new Swiper(".swiper", {
-// 	loop: true,
-
-// 	// If we need pagination
-// 	pagination: {
-// 		el: ".swiper-pagination",
-// 	},
-
-// 	// Navigation arrows
-// 	navigation: {
-// 		nextEl: ".swiper-button-next",
-// 		prevEl: ".swiper-button-prev",
-// 	},
-// });
-
 const aboutImages = Array.from(document.querySelectorAll('.about-item__image'))
 const aboutItems = Array.from(document.querySelectorAll('.about-item'))
 
