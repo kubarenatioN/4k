@@ -16,6 +16,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Lora&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="src/css/backstage.css">
+	<link rel="stylesheet" href="src/css/backstage-media.css">
 </head>
 
 <body>
@@ -24,9 +25,9 @@
 			<div class="container">
 				<div class="header__inner">
 					<a href="index.html" class="logo">
-						<img src="src/assets/images/Peaky-Blinders-logo.png" alt="Peaky Blinders" class="logo-img" />
+						<img src="src/assets/images/Peaky-Blinders-logo.png" alt="Логотип Острые козыри" class="logo-img" />
 					</a>
-					<nav class="menu">
+					<nav class="menu header-menu">
 						<ul class="menu__list">
 							<li class="menu__item">
 								<a href="characters.html" class="menu__link">Персонажи</a>
@@ -39,6 +40,22 @@
 							</li>
 						</ul>
 					</nav>
+					<nav class="menu-mobile">
+						<ul class="menu__list--mobile">
+							<li class="menu__item">
+								<a href="characters.html" class="menu__link">Персонажи</a>
+							</li>
+							<li class="menu__item">
+								<a href="storyline.html" class="menu__link">Сюжет</a>
+							</li>
+							<li class="menu__item">
+								<a href="backstage.html" class="menu__link">За кадром</a>
+							</li>
+						</ul>
+					</nav>
+					<button class="burger-menu">
+						<span class="burger-menu-line"></span>
+					</button>
 				</div>
 			</div>
 		</header>
@@ -213,6 +230,7 @@
 	</footer>
 
 	<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script defer src="src/js/header.js"></script>
 	<script defer src="src/js/backstage.js"></script>
 </body>
 

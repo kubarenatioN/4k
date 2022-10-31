@@ -185,6 +185,27 @@ body {
 }
 
 @media (max-width: 1000px) {
+	.first-screen__title {
+        font-size: 72px;
+    }
+
+	.first-screen__subtitle {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 800px) {
+	.first-screen__title {
+        font-size: 48px;
+        line-height: 1.4;
+    }
+    .first-screen__subtitle {
+        font-size: 24px;
+    }
+}
+
+/* Header Media */
+@media (max-width: 640px) {
 	.burger-menu {
 		display: flex;
 		position: relative;
@@ -208,5 +229,11 @@ body {
 
 	.footer__inner .menu__item {
 		margin: 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	.first-screen__title {
+		font-size: 32px;
 	}
 }

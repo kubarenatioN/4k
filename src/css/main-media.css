@@ -23,14 +23,6 @@
 }
 
 @media (max-width: 1000px) {
-    .first-screen__title {
-        font-size: 72px;
-    }
-
-    .first-screen__subtitle {
-        font-size: 36px;
-    }
-
     .heroes__item-image {
         width: 200px;
         height: 300px;
@@ -76,14 +68,6 @@
         position: static;
         padding: 0;
     }
-
-    .first-screen__title {
-        font-size: 48px;
-        line-height: 1.4;
-    }
-    .first-screen__subtitle {
-        font-size: 24px;
-    }
 }
 
 @media (max-width: 700px) {   
@@ -103,10 +87,6 @@
 }
 
 @media (max-width: 480px) {
-    .first-screen__title {
-        font-size: 32px;
-    }
-
     .heroes__item {
         width: 240px;
     }

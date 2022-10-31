@@ -1,0 +1,36 @@
+@media(max-width: 1200px) {
+    .season-text-wrapper {
+        max-width: 600px;
+        padding: 0 10px;
+    }
+}
+
+
+@media(max-width: 840px) {
+    .swiper-pagination-vertical.swiper-pagination-bullets,
+    .swiper-vertical>.swiper-pagination-bullets {
+        top: unset;
+        bottom: 10px;
+    }
+    .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+        transform: translate3d(0px, 0px, 0px);
+    }
+
+    .season-text-wrapper p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 480px) {
+    .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+        display: none;
+    }
+
+    .season-text-wrapper p {
+        font-size: 13px;
+    }
+
+    .season-text-title {
+        font-size: 32px;
+    }
+}
