@@ -1,3 +1,5 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www.seo.belstu.by
 RewriteRule (.*) https://seo.belstu.by/Kubarko/ [R=301,L]
+
+ErrorDocument 404 http://seo.belstu.by/Kubarko/404.html
