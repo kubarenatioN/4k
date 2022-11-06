@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.seo.belstu.by
+RewriteRule (.*) https://seo.belstu.by/Kubarko/ [R=301,L]
